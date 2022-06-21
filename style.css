@@ -16,6 +16,9 @@ body {
 }
 
 
+/* * * * *   Styles for the header   * * * * */
+
+
 .header {
     background-image: url(img/bg-hero-desktop.svg);
     /* background-size: cover; */
@@ -93,4 +96,91 @@ body {
 
 .header__img {
     width: 100%;
+}
+
+
+
+/* * * * *     Styles for the section   * * * * */
+
+.body {
+    padding: 8rem 5rem 11rem;
+    position: relative;
+}
+
+.card {
+    display: flex;
+    padding: 2rem 2rem 2rem 6rem;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.288);
+    align-items: center;
+    justify-content: space-between;
+    color: hsl(208, 11%, 55%);
+    border-radius: 10px;
+}
+
+.card-rev .card__img {
+    margin: 0;
+    margin-right: auto;
+
+}
+
+.card:not(:last-child){
+    margin-bottom: 3rem;
+}
+
+.card >* {
+    flex-basis: 50%;
+}
+
+.card__textbox {
+    flex-basis: 45%;
+}
+
+.card__textbox h3 {
+    color: hsl(192, 100%, 9%);
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.card__imgbox {
+
+}
+
+.card__img {
+    display: block;
+    width: 70%;
+    object-fit: cover;
+    margin-left: auto;
+}
+
+.cta {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    padding: 3rem ;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cta__head {
+    font-size: 1.7rem;
+    margin-bottom: 0;
+}
+
+.cta a {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* * * * *   FOOTER   * * * * * */
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(193, 100%, 96%);
+}
+
+.footer__logo {
+    fill: white;
 }
