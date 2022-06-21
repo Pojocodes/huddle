@@ -3,3 +3,94 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: hsl(192, 100%, 9%);
+}
+
+
+.header {
+    background-image: url(img/bg-hero-desktop.svg);
+    /* background-size: cover; */
+    background-color: hsl(192, 100%, 96%);
+    padding: 2rem 4rem;
+    min-height: 100vh;
+}
+
+.headertop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    
+}
+
+.logobox {
+
+}
+
+.logo {
+    height: 1.5rem;
+}
+
+.header__btn:link, .header__btn:visited {
+    font-size: .8rem;
+    text-transform: capitalize;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 700;
+    padding: .5rem 3rem;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header__cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__textbox {
+    margin-right: 4rem;
+    flex-basis: 62%;
+}
+
+.header__head {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Poppins" sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.header__para {
+
+}
+
+.textbox__btn:link,.textbox__btn:visited {
+    display: inline-block;
+    text-transform: capitalize;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+    padding: .8rem 3rem;
+    background-color:   hsl(322, 100%, 66%);
+    border-radius: 50px;
+
+}
+
+.header__imgbox {
+    
+}
+
+.header__img {
+    width: 100%;
+}
