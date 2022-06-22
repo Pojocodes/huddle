@@ -313,6 +313,7 @@ body {
    .header {
        padding-right: 2rem;
        padding-left: 2rem;
+       padding-bottom: 2rem;
    }
 
    .header__cont {
@@ -364,14 +365,14 @@ body {
    }
 
    .cta {
-       width: 80%;
-       font-size: rem;
+       width: 90%;
+       font-size: .8rem;
        padding-right: 1rem;
        padding-left: 1rem;
    }
 
    .cta__head {
-       font-size: 1rem;
+       font-size: .9rem;
    }
 
    .footer {
@@ -406,15 +407,15 @@ body {
    }
 
    .body {
-       padding: 8rem 2rem 11rem;
+       padding: 8rem 2rem 14rem;
    }
    .logo{
-    height: 1rem;
+    height: 1.2rem;
     
    }
    .header__btn:link,.header__btn:visited {
         padding: .4rem 1.5rem;
-        font-size: .5rem;
+        font-size: .8rem;
    }
 }
 
